@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRAVA - منصة التوظيف الموحدة</title>
+    <meta name="description" content="منصة التوظيف الموحدة لقطاعات PRAVA، نظام تقديم متطور بـ 4 مراحل مع اختبارات قبول مخصصة ولوحة تحكم متكاملة للإدارة." />
+    <meta property="og:title" content="PRAVA - منصة التوظيف الموحدة" />
+    <meta property="og:description" content="منصة التوظيف الموحدة لقطاعات PRAVA، نظام تقديم متطور بـ 4 مراحل مع اختبارات قبول مخصصة ولوحة تحكم متكاملة للإدارة." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script>
+      // Ignore WebSocket / HMR disconnects in the AI Studio preview environment
+      window.addEventListener('unhandledrejection', function (e) {
+        var errStr = String((e && (e.reason && (e.reason.message || e.reason.stack))) || e && e.reason || '');
+        if (errStr.includes('WebSocket') || errStr.includes('vite:ws') || errStr.includes('@vite/client')) {
+          e.preventDefault();
+          if (e.stopImmediatePropagation) e.stopImmediatePropagation();
+        }
+      }, true);
+      window.addEventListener('error', function (e) {
+        var msg = String((e && e.message) || '');
+        var file = String((e && e.filename) || '');
+        if (msg.includes('WebSocket') || file.includes('@vite/client')) {
+          e.preventDefault();
+          if (e.stopImmediatePropagation) e.stopImmediatePropagation();
+        }
+      }, true);
+    </script>
+  </head>
+  <body class="bg-[#090b0e] text-slate-100 font-['Cairo',sans-serif] antialiased selection:bg-amber-500/20 selection:text-amber-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
